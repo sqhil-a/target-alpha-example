@@ -4,7 +4,7 @@ export const nationalTeams = {
     path: "/team25-26",
     members: [
       {
-        name: "Shivam Bhatt",
+        name: "Sahil Bhatt",
         role: "Chief Executive Officer & President",
         profileRole: "Chief Executive Officer (CEO) & President",
         department: "National",
