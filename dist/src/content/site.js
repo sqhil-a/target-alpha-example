@@ -161,11 +161,11 @@ export const partners = [
 ];
 
 export const sponsorLogos = [
-  { name: "Past sponsor", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/d55fb6fb-803f-4e9e-ac65-079b46f000b2/R.jpg" },
-  { name: "Miyagi Labs", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/6d2abc34-4402-4902-a217-358c4e4fa24c/miyagi+labs.png" },
-  { name: "Ingenius Prep", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/c96e06d5-854e-4c77-b25a-2ad20e9d29af/ingenuius+prep.jpeg" },
-  { name: "The Hub", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/4de71bbd-5587-4126-a5a5-582a0cd41a02/Hub-Logo.jpg" },
-  { name: "Wealthsimple", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/34353ad2-7d98-47f7-b62b-5bfe38957420/Logo_Wealthsimple_2.png" },
-  { name: "UofT MAccFin", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/6c1a3a4c-0397-4255-8ffc-bdf1d8e48b32/maccfin-400x307.png" },
-  { name: "iA Financial", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/f62d5df6-a892-432f-ae73-a9c562d45c27/ia+financial.png" }
+  { name: "CDA Ontario", href: "https://www.cdacouncil.org/en/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/d55fb6fb-803f-4e9e-ac65-079b46f000b2/R.jpg" },
+  { name: "Miyagi Labs", href: "https://miyagilabs.ai/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/6d2abc34-4402-4902-a217-358c4e4fa24c/miyagi+labs.png" },
+  { name: "InGenius Prep", href: "https://ingeniusprep.com/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/c96e06d5-854e-4c77-b25a-2ad20e9d29af/ingenuius+prep.jpeg" },
+  { name: "Hub Climbing", href: "https://hubclimbing.com/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/4de71bbd-5587-4126-a5a5-582a0cd41a02/Hub-Logo.jpg" },
+  { name: "Wealthsimple", href: "https://www.wealthsimple.com/en-ca", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/34353ad2-7d98-47f7-b62b-5bfe38957420/Logo_Wealthsimple_2.png" },
+  { name: "UTSC MAccFin", href: "https://utsc.utoronto.ca/mgmt/maccfin-canadas-only-master-accounting-and-finance", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/6c1a3a4c-0397-4255-8ffc-bdf1d8e48b32/maccfin-400x307.png" },
+  { name: "iA Financial", href: "https://ia.ca/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/f62d5df6-a892-432f-ae73-a9c562d45c27/ia+financial.png" }
 ];

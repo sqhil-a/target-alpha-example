@@ -3,7 +3,7 @@ import { judges } from "../content/judges.js";
 import { news } from "../content/news.js";
 import { routes } from "../content/routes.js";
 import { PageHero, SectionHeading, ArrowLink } from "../components/primitives.js";
-import { escapeHtml, paragraphs, responsiveImage } from "../components/html.js";
+import { escapeHtml, linkAttrs, paragraphs, responsiveImage } from "../components/html.js";
 
 export function AboutPage() {
   return `${PageHero({ eyebrow: "About", title: "Target Alpha", body: aboutContent.introduction, image: aboutContent.image, imageAlt: "Target Alpha students" })}
@@ -34,9 +34,9 @@ export function NewsPage() {
 }
 
 export function SponsorsPage() {
-  return `${PageHero({ eyebrow: "Support", title: "Sponsors", body: "PAST SPONSORS", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/d55fb6fb-803f-4e9e-ac65-079b46f000b2/R.jpg", imageAlt: "Target Alpha sponsor" })}
+  return `${PageHero({ eyebrow: "Support", title: "Sponsors", body: "Past sponsors" })}
     <section class="sponsor-wall section-space" aria-label="Past sponsors">
-      ${sponsorLogos.map((sponsor, index) => `<figure><span>${String(index + 1).padStart(2, "0")}</span>${responsiveImage({ src: sponsor.image, alt: sponsor.name })}</figure>`).join("")}
+      ${sponsorLogos.map((sponsor, index) => `<a class="sponsor-card" ${linkAttrs(sponsor.href)} aria-label="Visit ${escapeHtml(sponsor.name)}"><span class="sponsor-card__index">${String(index + 1).padStart(2, "0")}</span>${responsiveImage({ src: sponsor.image, alt: sponsor.name })}<span class="sponsor-card__visit">Visit site <i aria-hidden="true">↗</i></span></a>`).join("")}
     </section>
     <p class="sponsor-contact">For sponsorship inquiries, please contact <a href="mailto:${site.contact.partnerships}">${site.contact.partnerships}</a></p>`;
 }
