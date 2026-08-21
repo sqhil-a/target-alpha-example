@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#123a12" />
+    <meta name="description" content="Felice Hu, Regional Executive at Target Alpha Canada." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Target Alpha Canada" />
+    <meta property="og:title" content="Felice Hu — Target Alpha Canada" />
+    <meta property="og:description" content="Felice Hu, Regional Executive at Target Alpha Canada." />
+    <meta property="og:image" content="/target-alpha-example/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://targetalpha.ca/felice-2024" />
+    <link id="site-favicon" rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.squarespace-cdn.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,600&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <script>
+      window.__TA_FILE_ASSET_ROOT__ = "..";
+      window.__TA_HTTP_ASSET_ROOT__ = "/target-alpha-example";
+      window.__TA_INITIAL_ROUTE__ = "/felice-2024";
+      window.__TA_ASSET_VERSION__ = "2026.08.20-motion-2";
+      (() => {
+        const assetRoot = location.protocol === "file:" ? window.__TA_FILE_ASSET_ROOT__ : window.__TA_HTTP_ASSET_ROOT__;
+        document.querySelector("#site-favicon").href = `${assetRoot}/favicon.svg`;
+        ["base", "layout", "pages", "motion"].forEach((name) => {
+          const stylesheet = document.createElement("link");
+          stylesheet.rel = "stylesheet";
+          stylesheet.href = `${assetRoot}/src/styles/${name}.css?v=${window.__TA_ASSET_VERSION__}`;
+          document.head.appendChild(stylesheet);
+        });
+      })();
+    </script>
+    <title>Felice Hu — Target Alpha Canada</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div id="app"></div>
+    <script>
+      (() => {
+        const assetRoot = location.protocol === "file:" ? window.__TA_FILE_ASSET_ROOT__ : window.__TA_HTTP_ASSET_ROOT__;
+        const script = document.createElement("script");
+        script.src = `${assetRoot}/app.js?v=${window.__TA_ASSET_VERSION__}`;
+        script.onerror = () => {
+          const notice = document.createElement("p");
+          notice.className = "boot-error";
+          notice.textContent = "The site could not start. Run npm run build and try again.";
+          document.querySelector("#app")?.replaceChildren(notice);
+        };
+        document.body.appendChild(script);
+      })();
+    </script>
+  </body>
+</html>
