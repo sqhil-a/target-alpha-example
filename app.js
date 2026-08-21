@@ -1052,7 +1052,7 @@ const partners = [
 ];
 
 const sponsorLogos = [
-  { name: "CPA Ontario", href: "https://pd.cpaontario.ca/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/d55fb6fb-803f-4e9e-ac65-079b46f000b2/R.jpg" },
+  { name: "CPA Ontario", href: "https://www.cpaontario.ca/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/d55fb6fb-803f-4e9e-ac65-079b46f000b2/R.jpg" },
   { name: "Miyagi Labs", href: "https://miyagilabs.ai/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/6d2abc34-4402-4902-a217-358c4e4fa24c/miyagi+labs.png" },
   { name: "InGenius Prep", href: "https://ingeniusprep.com/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/c96e06d5-854e-4c77-b25a-2ad20e9d29af/ingenuius+prep.jpeg" },
   { name: "Hub Climbing", href: "https://hubclimbing.com/", image: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/4de71bbd-5587-4126-a5a5-582a0cd41a02/Hub-Logo.jpg" },
