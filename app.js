@@ -895,7 +895,7 @@ const site = {
   founded: "2013",
   logo: "https://images.squarespace-cdn.com/content/v1/62e9d92459966a0033b73d2d/5e71d0bf-34ce-4025-a0c5-f00c37d54fd9/TAlogo2223.png?format=300w",
   social: {
-    linkedin: "https://www.linkedin.com/company/target-alpha-stock-trading-competition/",
+    linkedin: "https://ca.linkedin.com/company/target-alpha-canada",
     instagram: "https://www.instagram.com/targetalphacanada/"
   },
   newsletter: {
